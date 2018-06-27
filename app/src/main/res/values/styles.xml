@@ -1,0 +1,48 @@
+<resources>
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+		<item name="android:includeFontPadding">false</item>
+		<item name="android:progressBarStyle">@style/AppTheme.ProgressBar</item>
+		<item name="android:windowBackground">@color/colorWindowBg</item>
+		<item name="editTextStyle">@style/AppTheme.EditText</item>
+		<item name="buttonStyle">@style/AppTheme.Button</item>
+    </style>
+
+	<style name="AppTheme.Splash" parent="AppTheme">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowBackground">@drawable/bg_splash</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+
+	<style name="AppTheme.ProgressBar" parent="Base.Widget.AppCompat.ProgressBar">
+		<item name="android:indeterminateTint">@color/colorPrimaryDark</item>
+	</style>
+
+	<style name="AppTheme.EditText" parent="Widget.AppCompat.EditText">
+		<item name="android:minHeight">@dimen/et_height</item>
+		<item name="android:padding">@dimen/small_view_padding</item>
+		<item name="android:textSize">@dimen/et_text_size</item>
+		<item name="android:background">@drawable/shape_rounded_view</item>
+		<item name="android:backgroundTint">@color/colorEditTextBg</item>
+		<item name="android:textColorHint">@color/colorSecondaryText</item>
+		<item name="android:textColor">@color/colorPrimaryText</item>
+	</style>
+
+	<style name="AppTheme.Button" parent="Widget.AppCompat.Button">
+		<item name="android:paddingStart">@dimen/btn_side_padding</item>
+		<item name="android:paddingEnd">@dimen/btn_side_padding</item>
+		<item name="android:paddingTop">@dimen/small_view_padding</item>
+		<item name="android:paddingBottom">@dimen/small_view_padding</item>
+		<item name="android:minHeight">@dimen/btn_height</item>
+		<item name="android:background">@drawable/shape_rounded_view</item>
+		<item name="android:backgroundTint">@color/colorPrimary</item>
+		<item name="android:gravity">center|center_vertical</item>
+		<item name="android:textAllCaps">false</item>
+		<item name="android:textColor">@color/colorWhite</item>
+	</style>
+
+</resources>

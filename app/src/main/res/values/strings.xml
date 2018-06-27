@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LordSandKnights</string>
+
+	<!--MainActivity-->
+	<string name="auth_login_hint">Your login…</string>
+	<string name="auth_pass_hint">Your password…</string>
+	<string name="auth_login_btn">Sign In</string>
+	<string name="auth_credentials_exception">You should enter all information</string>
+
+	<!--WorldsActivity-->
+	<string name="worlds_title">Select your world:</string>
+	<string name="worlds_congrats">Welcome to %s</string>
+</resources>
